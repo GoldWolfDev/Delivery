@@ -18,5 +18,14 @@
 
         <!-- List of XML mapping files -->
 
+        <mapping class="ru.delivery.model.Category"/>
+        <mapping class="ru.delivery.model.Product"/>
+        <mapping class="ru.delivery.model.Client"/>
+        <mapping class="ru.delivery.model.TypeCurrency"/>
+        <mapping class="ru.delivery.model.Currency"/>
+        <mapping class="ru.delivery.model.Order"/>
+        <mapping class="ru.delivery.model.Operation"/>
+
+
     </session-factory>
 </hibernate-configuration>
