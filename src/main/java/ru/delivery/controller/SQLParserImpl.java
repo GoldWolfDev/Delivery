@@ -8,30 +8,37 @@ import java.util.List;
 public class SQLParserImpl  implements SQLParser{
 
     public JSONArray parseListCategory(List<Category> list) {
-        return null;
+        JSONArray getCategory = new JSONArray(list);
+        return getCategory;
     }
 
     public JSONArray parseListClient(List<Client> list) {
-        return null;
+        JSONArray getClient = new JSONArray(list);
+        return getClient;
     }
 
     public JSONArray parseListCurrency(List<Currency> list) {
-        return null;
+        JSONArray getCurrency = new JSONArray(list);
+        return getCurrency;
     }
 
     public JSONArray parseListOperation(List<Operation> list) {
-        return null;
+        JSONArray getOperation = new JSONArray(list);
+        return getOperation;
     }
 
     public JSONArray parseListOrder(List<Order> list) {
-        return null;
+        JSONArray getOrder = new JSONArray(list);
+        return getOrder;
     }
 
     public JSONArray parseListProduct(List<Product> list) {
-        return null;
+        JSONArray getProduct = new JSONArray(list);
+        return getProduct;
     }
 
     public JSONArray parseListTypeCurrency(List<TypeCurrency> list) {
-        return null;
+        JSONArray getTypeCurrency = new JSONArray(list);
+        return getTypeCurrency;
     }
 }

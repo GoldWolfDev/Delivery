@@ -26,7 +26,7 @@ public class Product {
     private Set<Category> id_category = new HashSet<Category>();
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "opc")
+    @JoinColumn(name = "id_product")
     private Order order;
 
 

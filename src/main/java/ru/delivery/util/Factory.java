@@ -1,10 +1,5 @@
 package ru.delivery.util;
 
-import ru.delivery.question.SQLQuestionNoReturn;
-import ru.delivery.question.SQLQuestionNoReturnImpl;
-import ru.delivery.question.SQLQuestionReturn;
-import ru.delivery.question.SQLQuestionReturnImpl;
-
 public class Factory {
 
     private static Factory instance = null;

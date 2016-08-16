@@ -9,6 +9,11 @@ import java.util.Set;
 @Table(name = "Order")
 public class Order {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id_order")
+    private String id;
+
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "id_product")
     private Set<Product> id_product = new HashSet<Product>();
 
@@ -54,5 +59,13 @@ public class Order {
 
     public void setCount_order(double count_order) {
         this.count_order = count_order;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }

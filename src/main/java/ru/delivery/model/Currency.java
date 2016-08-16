@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "Operation")
+@Table(name = "Currency")
 public class Currency {
 
     @Id
@@ -18,6 +18,11 @@ public class Currency {
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "id_type_currency")
     private Set<TypeCurrency> id_type_currency = new HashSet<TypeCurrency>();
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_currency")
+    private Operation operation;
+
 
     //getter and setter
 
