@@ -1,0 +1,9 @@
+"2016.10.27 at 15:01:41"  WARN main DriverManagerConnectionProviderImpl:configure:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+"2016.10.27 at 15:21:58"  WARN main DriverManagerConnectionProviderImpl:configure:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+"2016.10.27 at 15:23:18"  WARN main DriverManagerConnectionProviderImpl:configure:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+"2016.10.27 at 15:23:41"  WARN main DriverManagerConnectionProviderImpl:configure:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+"2016.10.27 at 15:24:25"  WARN main DriverManagerConnectionProviderImpl:configure:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+"2016.10.27 at 15:26:30"  WARN main DriverManagerConnectionProviderImpl:configure:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+"2016.10.27 at 15:27:28"  WARN main DriverManagerConnectionProviderImpl:configure:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+"2016.10.27 at 15:28:07"  WARN main DriverManagerConnectionProviderImpl:configure:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+"2016.10.27 at 15:30:57" ERROR main FunctionTableDAOImpl:firstCreateTable:27 - org.hibernate.HibernateException: /hibernate.cfg.xml not found
